@@ -123,7 +123,7 @@ public class Account implements Comparable<Account>{
                     return s1.equals(s2) ? 1 : -1;
             case 3: return this.proc > o.proc ? 1 : -1;
             case 4: return this.sum > o.sum ? 1 : -1;
-            default: return 1;
+            default: return 4;
         }
 
     }

@@ -48,15 +48,17 @@ public class Test {
             for (int i = 0; i < acc.length; i++) {
                 System.out.println(acc[i].toString());
             }
+
             Arrays.sort(acc);
 
             for (int i = 0; i < acc.length; i++) {
                 System.out.println(acc[i].toString());
             }
+            System.out.println(user_2.compareTo(user_1));
 
 
-            //out.write(user_1.toString() + "\n");
-            //out.write(user_2.toString());
+            out.write(user_1.toString() + "\n");
+            out.write(user_2.toString());
             out.flush();
 
 
