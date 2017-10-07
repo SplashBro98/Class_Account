@@ -38,7 +38,7 @@ public class Test {
             Account user_3 = new Account(s);
             //System.out.println(user_3.toString());
 
-           // System.out.println(user_1.compareTo(user_3));
+            System.out.println(user_1.compareTo(user_3));
 
             Account [] acc = new Account[3];
 
@@ -55,8 +55,8 @@ public class Test {
             }
 
 
-            out.write(user_1.toString() + "\n");
-            out.write(user_2.toString());
+            //out.write(user_1.toString() + "\n");
+            //out.write(user_2.toString());
             out.flush();
 
 
