@@ -11,9 +11,9 @@ public class Account implements Comparable<Account>{
     private double proc;
     private double sum;
 
-    enum Valyuta{rubly, dollars, euro, pounds};
+    enum Valyuta{rubly, dollars, euro, pounds}
 
-    public static int counter = 1;
+    private static int counter = 1;
     public Client getFio() {
         return fio;
     }
@@ -37,7 +37,7 @@ public class Account implements Comparable<Account>{
         return sum;
     }
 
-    public Valyuta Otvorot(String s){
+    private Valyuta Otvorot(String s){
         switch (s){
             case "rubly": return Valyuta.rubly;
             case "dollars": return Valyuta.dollars;
